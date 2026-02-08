@@ -1,6 +1,14 @@
-import React from 'react';
+import type React from "react";
 
-const Input = ({ type, placeholder, value, onChange, label }) => {
+interface InputProps {
+	type:string;
+	placeholder:string;
+	value:string;
+	onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+	label:string;
+}
+
+const Input = ({ type, placeholder, value, onChange, label }: InputProps) => {
 	return (
 		<div className='flex flex-col justify-center items-center mb-4 w-full'>
 			<label className='text-lg text-gray-500'>{label}</label>
