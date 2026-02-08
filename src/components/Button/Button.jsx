@@ -1,10 +1,6 @@
-interface ButtonProps {
-	children: string;
-	onClick: () => void;
-	size: 'sm' | 'lg';
-}
+import React from 'react';
 
-const Button = ({ children, onClick, size = 'lg' }: ButtonProps) => {
+const Button = ({ children, onClick, size = 'lg' }) => {
 	const sizes = {
 		sm: 'w-[174px] h-[40px]',
 		lg: 'w-[362px] h-[48px]',
