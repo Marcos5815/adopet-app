@@ -73,25 +73,5 @@
       "image": "https://placedog.net/500"
     }
   ],
-  "users": [
-    {
-      "id": "1",
-      "name": "João da Silva",
-      "email": "joao.silva@example.com",
-      "password": "123456",
-      "phone": "11999999999",
-      "city": "São Paulo",
-      "about": "Sou um desenvolvedor de software e adoro pets."
-    },
-    {
-      "id": "faca",
-      "name": "Pedro",
-      "email": "pedro@email.com",
-      "password": "123123",
-      "confirmPassword": "123123",
-      "phone": "3299999999",
-      "city": "",
-      "about": ""
-    }
-  ]
+  "users": []
 }
